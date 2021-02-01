@@ -19,3 +19,15 @@
   max-width: 1170px;
   margin: 0 auto;
 }
+
+.conteiner::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+[class*="col-"]{
+  float: left;
+}
+.col-1{
+  width: calc( 100% / 12 );
+}
