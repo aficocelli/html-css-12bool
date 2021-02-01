@@ -8,19 +8,23 @@
 
 /* regola di debug */
 
-.debug{
+.debug .container {
+  border: 1px solid red;
+  height:200px;
+}
+.debug [class*="col-"]{
   height: 200px;
-  border:1px solid red;
+  border: 1px solid blue;
 }
 
 /* framework 12bool */
 
-.conteiner{
+.container{
   max-width: 1170px;
   margin: 0 auto;
 }
 
-.conteiner::after{
+.container::after{
   content: "";
   display: block;
   clear: both;
