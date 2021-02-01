@@ -5,14 +5,13 @@
 
 .container > [class*="col-"]{
   border: 1px solid black;
-  padding: 5px 5px;
 }
 
-.col-6 > [class*="col-"] {
+.col-6 > .container [class*="col-"] {
   border: 1px solid #fff;
   background-color: #F07F80;
-  height: calc( 100% - 2.5px);
   position:relative;
+  height: calc( 100% - 2.5px);
 }
 
 .container > [class*="col-"]{
@@ -25,4 +24,8 @@ p{
   left:50%;
   transform: translate(-50%, -50%);
   font-weight: bold;
+}
+
+.col-6 > .container{
+  padding: 5px 5px;
 }
