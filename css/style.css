@@ -7,7 +7,7 @@
   border: 1px solid black;
 }
 
-.col-6 > .container [class*="col-"] {
+.col-lg-6 > .container [class*="col-"] {
   border: 1px solid #fff;
   background-color: #F07F80;
   position:relative;
@@ -26,7 +26,7 @@ p{
   font-weight: bold;
 }
 
-.col-6 > .container{
+.col-lg-6 > .container{
   padding: 5px 5px;
   border:none;
   border-bottom:1px solid black;
