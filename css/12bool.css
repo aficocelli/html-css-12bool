@@ -111,6 +111,12 @@
   .offset-xs-11{
     margin-left: calc( (100% / 12) * 11);
   }
+
+  /* mix */
+
+  .d-none-xs{
+    display: none;
+  }
 }
 
 /* resp da 768px a 991px */
@@ -189,6 +195,12 @@
   .offset-md-11{
     margin-left: calc( (100% / 12) * 11);
   }
+
+  /* mix */
+
+  .d-none-md{
+    display: none;
+  }
 }
 
 /* resp > di 992px */
@@ -266,6 +278,12 @@
   }
   .offset-lg-11{
     margin-left: calc( (100% / 12) * 11);
+  }
+
+  /* mix */
+
+  .d-none-lg{
+    display: none;
   }
 
 }
